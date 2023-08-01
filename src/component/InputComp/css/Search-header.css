@@ -1,0 +1,74 @@
+#Search-header {
+    width: 1024px;
+    height: 35px;
+    background-color: rgb(255, 251, 243);
+    margin: 0 auto;
+}
+
+#Search-header:hover {
+    background-color: #EFF8FB;
+}
+
+#Search-header>span:nth-child(1) {
+    width:60px;
+    height:35px;
+    /* background-color: tomato; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+#Search-header>span:nth-child(2) {
+    width:490px;
+    height:35px;
+    /* background-color: rgb(240, 171s, 159); */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+#Search-header>span:nth-child(3) {
+    width:150px;
+    height: 40px;
+    /* background-color:cadetblue; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:12px;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+#Search-header>span:nth-child(4) {
+    width:150px;
+    height: 35px;
+    /* background-color:chartreuse; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+}
+#Search-header>span:nth-child(5) {
+    width:90px;
+    height: 35px;
+    /* background-color:rgb(96, 96, 255); */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+}
+#Search-header>span:nth-child(6) {
+    width:84px;
+    height: 35px;
+    /* background-color:gold; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+}

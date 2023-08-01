@@ -1,0 +1,41 @@
+#pagination{
+    width: 1200px;
+    height:auto;
+    background-color: olivedrab;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:15px;
+    float: left;   
+}
+
+#pagination>span:nth-child(1) {
+    width:1200px;
+    height:auto;
+    background-color: cornflowerblue;
+    display: block;
+}
+#pagination>span:nth-child(2) {
+    width:1200px;
+    height:auto;
+    background-color: rgb(253, 139, 229);
+    display: block;
+}
+
+/* 외 영역을 한번더 줘야 margin이대나 이것없이도 가능한가 */
+#div-btn {
+    width: 1500px;
+    height: auto;
+    background-color: darkblue;
+}
+
+#btn-css {
+    width: 1200px;
+    height: auto;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+}
+#btn-css>button {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+}

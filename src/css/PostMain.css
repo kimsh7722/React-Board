@@ -1,0 +1,106 @@
+
+#postmain {
+  width: 1500px;
+  height: 750px;
+  background-color: red;
+  margin: 0 auto;
+  /* float: left; */
+}
+
+h3 {
+  width: auto;
+  height: 70px;
+  border: 3px solid black;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  /* color: white; */
+  float: left;
+}
+
+#post-nav {
+  width:1500px;
+  height: 40px;
+  /* background-color: aquamarine; */
+  float: left;
+}
+#nav-menu {
+  width:1024px;
+  height: 40px;
+  background-color: rgb(212, 212, 212);
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
+  font-weight:bolder;
+  margin: 0 auto;
+  /* float: left; */
+}
+
+#nav-menu>span:nth-child(1) {
+  width:100px;
+  height: 40px;
+  /* background-color: aqua; */
+  display: black;
+  float: left;
+  text-align: center;
+  padding-top:7px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#nav-menu>span:nth-child(2) {
+  width:490px;
+  height: 40px;
+  /* background-color:rgb(218, 218, 250); */
+  display: black;
+  float: left;
+  color: black;
+  text-align: center;
+  padding-top:7px;
+  box-sizing: border-box;
+}
+#nav-menu>span:nth-child(3) {
+  width:150px;
+  height: 40px;
+  /* background-color:cadetblue; */
+  display: black;
+  float: left;
+  text-align: center;
+  padding-top:7px;
+  box-sizing: border-box;
+}
+#nav-menu>span:nth-child(4) {
+  width:160px;
+  height: 40px;
+  /* background-color:chartreuse; */
+  display: black;
+  float: left;
+  text-align: center;
+  padding-top:7px;
+  box-sizing: border-box;
+}
+#nav-menu>span:nth-child(5) {
+  width:120px;
+  height: 40px;
+  /* background-color:rgb(121, 121, 240); */
+  display: black;
+  float: left;
+  color: black;
+  text-align: center;
+  padding-top:7px;
+  box-sizing: border-box;
+}
+
+
+/* 글쓰기 CSS */
+
+#postmain>#btn-right {
+  width:1024px;
+  height: auto;
+  margin: 0 auto;
+}
+#btn-right>button {
+  display: block;  
+  width: 60px; height: 30px;
+  float: right;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0; padding: 0;
+}
+#header {
+    width: 1500px;
+    height: 260px;
+    background-color: rgb(190, 241, 139);
+    margin: 0 auto;
+    margin-top:10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+/* 시작 */
+#nav {
+    width: 1500px;
+    height: 50px;
+    background-color:teal;
+}
+
+#main-menu {
+    width: 1024px;
+    height:50px;
+    /* background-color:white; */
+    margin: 0 auto;
+    position: relative;
+}
+
+#main-menu>li {
+    display: block;
+    width: 170px; 
+    height:50px;
+    background-color: teal;
+    position: relative;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
+#main-menu>li>a {
+    transition:all 0.3s ease;
+    display: block;
+    width:170px;
+    height:50px;
+    background-color: teal;
+    padding: 8px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#main-menu>li>a:hover {
+    background-color:lightgreen;
+    color:midnightblue;
+}
+#main-menu>li:hover .menu-list {
+    display: block;
+}
+
+.menu-list {
+    display: none;
+}
+.menu-list>li {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(135, 235, 177);
+    display: block;
+    /* border: 1px solid black; */
+    padding-top:5px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    color: black;
+    transition:all 0.3s ease;
+}
+
+.menu-list > li:hover {
+    background-color: #414452;
+    color:white;
+}

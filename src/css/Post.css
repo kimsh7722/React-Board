@@ -1,0 +1,69 @@
+#post {
+    width: 1024px;
+    height: 35px;
+    background-color:white;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+}
+#post>#post-header {
+    width:1024px;
+    height: 35px;
+    /* background-color: burlywood; */
+}
+
+#post-header:hover {
+  background-color: #EFF8FB;
+}
+
+#post>#post-header>span:nth-child(1) {
+    width:100px;
+    height: 35px;
+    /* background-color: aqua; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+}
+#post-header>span:nth-child(2) {
+    width:490px;
+    height: 35px;
+    /* background-color:rgb(152, 255, 246); */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:9px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+#post-header>span:nth-child(3) {
+    width:150px;
+    height: 35px;
+    /* background-color:cadetblue; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:12px;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+#post-header>span:nth-child(4) {
+    width:160px;
+    height: 35px;
+    /* background-color:chartreuse; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+}
+#post-header>span:nth-child(5) {
+    width:120px;
+    height: 35px;
+    /* background-color:rgb(96, 96, 255); */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+}

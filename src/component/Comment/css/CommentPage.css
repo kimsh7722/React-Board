@@ -1,0 +1,20 @@
+/* Comment PagNition 구간 */
+#commentPage {
+    width: 800px;    
+    height: 50px; 
+    /* background-color: chartreuse; */
+    float: left;
+    margin: 0 auto;
+    margin-top : 5px;
+}
+
+.Cpage {
+    display: block;
+}
+#commentPage>.Cpage {
+    width: 40px;
+    height: 25px;
+    background-color: cadetblue;
+    text-align: center;
+    margin: 0 auto;
+}

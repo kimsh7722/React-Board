@@ -1,0 +1,36 @@
+#inputcomp {
+    width: 1500px;
+    height: auto;
+    background-color:rgb(255, 127, 81);
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#imputmenu>#inputmain {
+    box-sizing: border-box;    
+}
+#inputmain{
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+#inputmain>input {
+    width:200px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    display:block;
+    float: left;
+}
+
+#inputmain>button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+    /* background-color: blue; */
+}

@@ -1,0 +1,149 @@
+#postview {
+    width: 1024px;
+    height: 1100px;
+    /* background-color: coral; */
+    border-bottom: 2px solid rgb(255, 220, 220);
+    margin: 0 auto;
+    margin-top:100px;
+    padding-top:5px;
+    box-sizing: border-box;
+}
+#postview>#btn {
+    width: 800px;
+    height: 35px;
+    /* background-color: thistle; */
+    margin: 0 auto;
+}
+#btn>button {
+    width: 50px;
+    height: 25px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#postview>#menu {
+    width: 800px;
+    height: 700px;
+    /* background-color: dodgerblue; */
+    margin: 0 auto;
+}
+
+#menu>#top-menu {
+    width: 800px;
+    height:50px;
+    background-color: rgb(230, 230, 230);
+    border-bottom: 1px solid black;
+    font-size: 13px;
+}
+
+#top-menu>span:nth-child(1) {
+    width: 266px;
+    height: 50px;
+    /* background-color: aqua; */
+    display: block;
+    float: left;
+    padding-top:14px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#top-menu>span:nth-child(2) {
+    width: 266px;
+    height: 50px;
+    /* background-color: bisque; */
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top:14px;
+    box-sizing: border-box;
+    font-size:15px;
+}
+#top-menu>span:nth-child(3) {
+    width: 266px;
+    height: 50px;
+    /* background-color: blueviolet; */
+    display: block;
+    float: left;
+    text-align: right;
+    padding-top:14px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#buttom-menu {
+    width: 800px;
+    height: 648px;
+    /* background-color: lightgray; */
+}
+#buttom-menu>span:nth-child(1){
+    width: 800px;
+    height:150px;
+    /* border: 1px solid black; */
+    display: block;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top:45px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+#buttom-menu>span:nth-child(2){
+    width: 800px;
+    height:460px;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+    padding:10px;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* 수정 구간 */
+#menu>#top-update {
+    width: 800px;
+    height:50px;
+    /* background-color: aqua; */
+}
+#menu>#buttom-update {
+    width: 800px;
+    height: 650px;
+    background-color: blueviolet;
+}
+
+#top-update>input:nth-child(1) {
+    width : 400px;
+    height: 40px;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#top-update>input:nth-child(2) {
+    width : 200px;
+    height: 40px;
+    margin-left:30px;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#top-update>span:nth-child(3) {
+    width: 160px;
+    height: 50px;
+    display: block;
+    /* background-color: aquamarine; */
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+#menu>textarea {
+    width : 800px;
+    height: 650px;
+    resize: none;
+    padding-left: 10px;
+    padding-top:10px;
+    box-sizing: border-box;
+}

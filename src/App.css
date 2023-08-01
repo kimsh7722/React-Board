@@ -1,0 +1,22 @@
+*{
+    margin: 0; padding: 0;
+}
+
+#app {
+    width: 1500px;
+    height: auto;
+    /* background-color: rgb(255, 194, 199); */
+    margin: 0 auto;
+}
+
+#app>h1 {
+    width: 1024px;
+    height: 100px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top:22px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    /* color:white; */
+}
